@@ -20,7 +20,8 @@ Vue.use(Vuetify)
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+
+Vue.component('AppHome', require('./components/AppHome'));
 
 const app = new Vue({
     el: '#app'
