@@ -19,10 +19,11 @@ Vue.use(Vuetify)
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
+import router from './Router/router.js';
 
 Vue.component('AppHome', require('./components/AppHome'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    router
 });
